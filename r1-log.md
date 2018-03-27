@@ -21,3 +21,8 @@ I learned that there are, as far as I know, only two search algorithms: breadth-
 In the process of learning about binary trees, I did a bit of reading on heaps as well. They follow a similar form of organization, but do not have the same strict sorting criteria. Heaps tend to be more balanced than binary trees in terms of overall structure, but are not as efficient.
 
 I'd really like to jump in and start coding the answer to the binary search tree serialization problem, but I'm finding that educating myself before going in blind is probably the better way to go. Binary trees appear to be an important concept that I'll need to have in my toolbox, so it's better for me to take the time to understand the concept rather than stitch together some code that's just good enough to solve the coding challenge but which I'll quickly forget about as I move forward.
+
+### R1D3 - March 26, 2018
+Today, my coding focused mainly on the MEAN stack - MongoDB, Express, Angular, and Node. Creating a MEAN app involves a lot of moving parts - creating routes, installing packages, creating data models for my database - but it's fascinating seeing under the hood at how everything interconnects.
+
+I continued my education on the topic of binary trees as well today. In the process, I homed in on the subject of classes in JavaScript. An interesting fact I learned about JS classes is that, since it is a prototype-based language, creating an instance of a JS object does not simply make a copy based on the class template; the instance is linked to the prototype, and any methods or attributes added to the prototype after objects are instantiated will add that data to the preexisting objects. I never would have guessed!
