@@ -37,3 +37,8 @@ Finally, I finished chapter three of my agile book, which deals with the concept
 ### R1D5 - March 28, 2018
 Today I learned the build flow that is followed when assembling an Angular component (which requires *so many* files), and I also learned how to apply custom styling to that particular component. I am getting some exposure to TypeScript in the process, and it really isn't difficult at all. In fact, I'm having a hard time distinguishing it from regular JavaScript so far - but I'm barely scratching the surface, so I don't want to speak too soon.
 
+I also learned how to apply two-way data binding between an input field and a respective output field via string interpolation. Having done this previously in Vue, I have to say I appreciate Vue's syntax more, but I appear to be accomplishing the *exact same thing* in Angular.
+
+On the non-coding front, I read part of chapter 4 in my agile book, spoke to a friend in the tech industry who works for a major corporation and got a few pointers, and listened to a couple of Base.cs podcast episodes dealing with binary trees. My daily coding problem emails continue to pile up in my inbox, but they're really not a priority at the moment - I can't rush progress, and I have to be realistic about that.
+
+When flipping through job postings again today, it occurred to me that one of the skills I lack completely is .NET/C# proficiency - traditionally Windows-based technology. I discovered that it's possible to develop for this framework/language pair on Linux and went ahead and set up my environment with MonoDevelop and .NET Core, but I refrained from getting too deep into my exploration for fear of winding up in a rabbit hole and losing sight of my current objectives. One thing at a time.
