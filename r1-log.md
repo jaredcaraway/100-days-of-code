@@ -1,4 +1,4 @@
-# #100DaysOfCode Log - Round 1 - Jared Caraway
+## 100DaysOfCode Log - Round 1 - Jared Caraway
 
 The log of my #100DaysOfCode challenge. Started on Saturday, March 24, 2018.
 
@@ -67,3 +67,7 @@ Each module has a scope that is, by default, local rather than global. This caus
 I alternate between my desktop PC upstairs and my laptop, which I sometimes use upstairs in parallel with the desktop and often take downstairs with me. I originally had set up SyncAnything on both machines, thinking it would be a good idea to just drop the repos I'm working on into my Sync folder to have them automatically mirrored onto both machines. This actually caused some issues with Git, so I reverted to just pulling a local copy to each machine in a non-synced folder. Sometimes I'll shut down my desktop to come downstairs for the night, but I'm not down writing out my log for the day. To remedy this, I've started creating a branch and pushing it to origin so I could then pull it onto my laptop while I'm downstairs to finish it up and post.
 
 This works well enough, but I found after merging and deleting my local branch that the remote branch still persisted. It's possible to log onto Github and remove the remote branch via GUI, but I always opt for a CLI method when it's available. This led me to learn a new skill - deleting remote branches via terminal! It's a bit counterintuitive, but all you do is `git push origin --delete branchNameHere` and that pesky remote branch vanishes. I feel fairly competent in Git by now, but I still have so much left to learn before I can truly say I've mastered it.
+
+I spent a lot of time tonight looking for a good CMS/admin panel to pop onto the MEAN-stack-based project I'm preparing to begin on for a client. For selfish/practice reasons (see: my portfolio), I'm wanting to go the Node route rather than just throwing together something in WordPress (which would be much quicker and easier, if overkill for this particular project). There doesn't seem to be a clear candidate at this point, as a lot of the frameworks I'm finding seem not to be fully fleshed out or are not still being actively developed.
+
+I think there's a compromise - WordPress recently merged a branch into its core which brought REST API access, which would allow me to connect to WP on the backend while building the frontend using Angular. I'd go full MEAN stack if my client didn't need to update their website rather frequently, but I want it to be easy for them to maintain their content without my assistance (although I'll still need to jump in on occasion to apply updates, but I'll be hosting it for them and can do that quickly with the awesome WP CLI). I haven't made a final decision just yet, but I'm leaning heavily in that direction.
