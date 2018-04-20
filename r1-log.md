@@ -193,3 +193,12 @@ Then it occurred to me to go back and look at my Pen and make sure I wasn't leav
 It was a bittersweet discovery. I felt more than a little foolish for beating my head against a wall, trying to troubleshoot for the higher-level stuff before I even bothered checking the foundational issues. On the other hand, I was seriously relieved that I finally got my app working in my dev environment, now with version control. It was truly a valuable learning experience for me, though. I wasted a lot of valuable time I could've spent coding, but I'm certain I'll never make the same mistake again. If it was an IT issue, I'd basically skipped the "try turning it off and back on again" step. Or even the "check to make sure it's plugged in" step. It was so obvious that I didn't even think to check it. But now I know - a hard lesson learned, but definitely a lesson!
 
 I've got a couple of interviews tomorrow (non-coding, unfortunately, but interviews all the same), so this is where I say *adieu*. I look forward to making some more substantial progress tomorrow!
+
+### R1D22 - April 19, 2018
+Now that I got my dumb little issue solved with my weather app, I'm back at it. For the purposes of submitting to freeCodeCamp and moving forward, I'm literally just going to mimic the provided example app, but I may revisit it in the future to refactor and add additional features. The weather API I'm using provides a *lot* of data that I could display, so I could potentially turn my very basic app into a more full-featured one. Not that the world is in desperate need of yet another weather app, but it would be good coding practice for me.
+
+Tonight I've mainly been converting my app over to Bootstrap 4. At some point, I want to come back and also refactor it to use straight up CSS with flexbox and media queries, but BS4 at least lets me get it done quickly so I can get the core concepts down. That's what I'm mainly interested in at this point - an overhead view from which I can zoom in over time. I'd also like to come back and redo the app using a JS framework for the experience.
+
+There's not much interesting to report on tonight, because everything I have been doing has really been nitpicky presentational stuff which would be boring to describe in detail. But I *did* get my coding for the day in, and that's what really counts.
+
+And now I'm submitting my barebones version of the weather app to freeCodeCamp. Next on the agenda: the Wikipedia viewer! Stay tuned.
