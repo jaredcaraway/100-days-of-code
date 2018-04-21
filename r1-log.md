@@ -202,3 +202,10 @@ Tonight I've mainly been converting my app over to Bootstrap 4. At some point, I
 There's not much interesting to report on tonight, because everything I have been doing has really been nitpicky presentational stuff which would be boring to describe in detail. But I *did* get my coding for the day in, and that's what really counts.
 
 And now I'm submitting my barebones version of the weather app to freeCodeCamp. Next on the agenda: the Wikipedia viewer! Stay tuned.
+
+### R1D23 - April 20, 2018
+I began the Wikipedia Viewer today, and I can tell it's going to be great experience working with a more complex API. So far I've set up the interface for the app, which will allow the user to click a link to get a random Wiki page as well as enter a search term to pull up a list of the closest pages matching the entered search term.
+
+I've got the random page function working already, mainly because Wikipedia provides a special API endpoint specifically for random pages. I created a link element on the page with an event listener that navigates to the specified random page endpoint in a new tab when clicked. I've also got the search field hooked up and configured to recognize when the Enter key is hit. When I sit down at my computer again (tomorrow, if I can find time) I plan to read more about the API to see how to formulate a proper query using the inputted data.
+
+This is going to be another exercise in using AJAX, and it will eventually give me some more practice working with CSS animations, too (though I'm saving that part for after the core functionality is working to my satisfaction). I've also been committing to Git like a madman and doing my best to exercise sensible branching discipline when working on new features, so if I get too far off on a path that isn't working out, I can always return to center with master and branch off again to try something else. I have a love/hate relationship with Git...I think it really is an amazing tool, but it is going to be a long-term learning experience to understand it thoroughly. That said, I wouldn't dream of working on a project without it at this point. It's extremely valuable.
